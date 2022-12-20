@@ -5,7 +5,7 @@
  * @a: array
  * @n: number of values to be printed
 */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	int t;
 
@@ -14,7 +14,9 @@ void print_array(int *a, int n);
 		printf("%d", a[t]);
 
 		if (t != n - 1)
+		{
 			printf(", ");
+		}
 	}
 	printf("\n");
 }
