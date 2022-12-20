@@ -13,7 +13,7 @@ void puts_half(char *str)
 		len++;
 		str++;
 	}
-	str-- (len / 2);
+	*str-- (len / 2);
 	{
 		_putchar(*str);
 		str++;
