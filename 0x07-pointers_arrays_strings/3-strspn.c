@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strspn - search a string fir a set of bytes
- * @s - source string
- * @accept - accepted string
+ * @s: source string
+ * @accept: accepted string
  * Return: number of bytes in intial segment
 */
 unsigned int _strspn(char *s, char *accept)
